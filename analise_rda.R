@@ -19,4 +19,30 @@
 
 # A matémática se assemelha à análise PCA, com a diferença que na RDA são utilizadas duas matrizes.
 
+# Prática ----------------------------------------------------------------------------------------------------------------------------------
 
+## Baixar pacote e dados
+
+library(vegan)
+data("varespec")
+data("varechem")
+
+## Nomear os dados ambientais x dados biológicos
+
+sp <- varespec
+amb <- varechem
+
+## Modelo da análise RDA
+
+result_rda <- rda(sp, amb)
+result_rda
+
+## Interpretação dos resultados
+
+# Total da informação da inércia = 1825.6594
+# Inércia explicada = 1459.8891 (79%)
+# Inércia não-explicada = 365.7704 (20%)
+
+## Sumário da RDA
+
+summary(result_rda)
