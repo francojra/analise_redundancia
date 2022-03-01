@@ -59,3 +59,5 @@ summary(result_rda)
 
 ## Visualização
 
+plot(result_rda, col = 1, pch = 3, xlab = "Eixo (44,92%)", ylab = "Eixo (21,87%)",
+     scaling = 1, xlim = c(-0.5, 0.5), ylim = c(-0.5,0.5))
