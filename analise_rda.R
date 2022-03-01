@@ -46,3 +46,14 @@ result_rda
 ## Sumário da RDA
 
 summary(result_rda)
+
+# No sumário é possível verificar a importância dos componentes e a proporção explicada
+# por cada um deles. Por xemplo, a RDA1 e a RDA2 explicam 45% e 22%, respectivamente.
+# O sumário também apresenta os scores das espécies, mostrando quanto cada espécie
+# influencia no componente principal, da mesma forma, isso também é mostrado para as
+# variáveis ambientais. Algumas espécies ou variáveis ambientais podem apresentar grande
+# influência no componente 1 e outras apresentam maior influência nos componentes seguintes.
+# O sumário inclui também, o peso dos scores em cada sítio de coleta.
+
+## Visualização
+
