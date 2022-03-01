@@ -5,7 +5,7 @@
 
 # Conceito da Análise de Redundância -------------------------------------------------------------------------------------------------------
 
-# Para realizar a análise de redundância é necessário duas matrizes x e y, sendo a matriz x composta
+# Para realizar a análise de redundância são necessárias duas matrizes x e y, sendo a matriz x composta
 # por variáveis explicativas (exemplo: variáveis ambientais), e a matriz y composta por variáveis
 # respostas (exemplo: abundância de espécies). Portanto, o objetivo dessa análise é encontrar componentes
 # de y que são combinações lineares de x que representam a variação de y.
@@ -16,5 +16,7 @@
 # "O RDA também busca encontrar o quanto da composição e abundância das espécies na comunidade estão
 # relacionadas com descritores ambientais, mas assume que existe uma resposta linear das espécies aos
 # gradientes ambientais." - Provetes, 2011
+
+# A matémática se assemelha à análise PCA, com a diferença que na RDA são utilizadas duas matrizes.
 
 
