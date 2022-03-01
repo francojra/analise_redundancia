@@ -10,14 +10,16 @@
 # respostas (exemplo: abundância de espécies). Portanto, o objetivo dessa análise é encontrar componentes
 # de y que são combinações lineares de x que representam a variação de y.
 
-# A premissa dessa análise é que exista uma dependência linear da resposta das variáveis  em y
+# A premissa dessa análise é que exista uma dependência linear da resposta das variáveis em y
 # nas variáveis em x. Uma variação em x sempre dará uma variação em y.
 
 # "O RDA também busca encontrar o quanto da composição e abundância das espécies na comunidade estão
 # relacionadas com descritores ambientais, mas assume que existe uma resposta linear das espécies aos
 # gradientes ambientais." - Provetes, 2011
 
-# A matémática se assemelha à análise PCA, com a diferença que na RDA são utilizadas duas matrizes.
+# A matémática se assemelha à análise PCA, com a diferença que na RDA são utilizadas duas matrizes. A
+# diferença entre o PCA e RDA é que o PCA mostra a correlação entre as variáveis e o RDA apresenta a
+# influência das variáveis da matriz x nas variáveis da matriz y.
 
 # Prática ----------------------------------------------------------------------------------------------------------------------------------
 
